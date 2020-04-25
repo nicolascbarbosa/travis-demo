@@ -1,0 +1,13 @@
+dist: bionic
+language: node_js
+node_js:
+  - "12"
+cache:
+  directories:
+    - node_modules
+install:
+  - npm i
+script:
+  - npm test . --ci --silent
+after_failure:
+  - cat /home/travis/.npm/_logs/*-debug.log
