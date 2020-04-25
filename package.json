@@ -1,0 +1,23 @@
+{
+  "name": "travis-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolascbarbosa/travis-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolascbarbosa/travis-demo/issues"
+  },
+  "homepage": "https://github.com/nicolascbarbosa/travis-demo#readme",
+  "dependencies": {
+    "jest": "^25.4.0"
+  }
+}
